@@ -2,15 +2,21 @@
 
 ## Commands 
 ```bash
+git clone https://github.com/Samima-Nasrin/clerk-login.git
+cd clerk-login/frontend/clerk-react
 npm install
-npm install cors @clerk/express dotenv express mongoose socket.io
 npm run dev
 ```
 
-## Environmental Variables
+## Environmental Variables (backend/.env)
 ```
 CLERK_SECRET_KEY=sk_test_...
 CLERK_PUBLISHABLE_KEY=pk_test_...
 MONGODB_URI=...
 PORT=5000
+```
+
+## Environmental Variables (frontend/clerk-react/.env.local)
+```
+VITE_CLERK_PUBLISHABLE_KEY=...
 ```
