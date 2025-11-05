@@ -1,0 +1,62 @@
+.center-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  background: #0d0d0d; /* clean dark background */
+  color: #fff;
+  font-family: 'Inter', sans-serif;
+}
+
+.big-btn {
+  padding: 16px 42px;
+  font-size: 23px;
+  font-weight: 200;
+  border-radius: 7px;
+  background: linear-gradient(135deg, #1e1e1e, #2a2a2a);
+  color: white;
+  border: 1px solid #333;
+  cursor: pointer;
+  transition: 0.25s ease;
+  letter-spacing: 0.3px;
+}
+
+.big-btn:hover {
+  background: #333;
+  border-color: #555;
+}
+
+.cl-userButton {
+  transform: scale(3.2) !important;
+  filter: drop-shadow(0 0 12px rgba(255,255,255,0.08));
+}
+
+/* ✅ Scale ONLY the profile button avatar */
+.cl-userButtonTrigger .cl-avatarBox {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+/* ✅ Ensure image fits nicely */
+.cl-userButtonTrigger .cl-avatarBox img {
+  width: 100% !important;
+  height: 100% !important;
+  border-radius: 50% !important;
+}
+
+
+.user-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.welcome-text {
+  font-size: 28px;
+  font-weight: 600;
+  color: #e6e6e6;
+}
